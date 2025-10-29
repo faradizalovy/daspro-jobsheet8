@@ -24,4 +24,5 @@ dimulai dari 0 hingga N, sehingga jumlah iterasi menjadi N+1 kali.*/
 sudah tidak memenuhi i > N. Akibatnya, tidak ada output bintang yang dicetak. */
 
 /*3. Jika pada perulangan for, kondisi step i++ diubah menjadi i-- apa akibatnya? Mengapa bisa demikian? */
-/*Jawaban:  */
+/*Jawaban: Program akan mengalami infinite loop (perulangan tak berujung) karena nilai i terus berkurang 
+dan tidak pernah mencapai kondisi berhenti (i <= N) */
